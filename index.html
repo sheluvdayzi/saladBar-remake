@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Salad bar">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Salad Bar</title>
+</head>
+<body>
+    <header>
+        <h1>Salad-Bar</h1>
+    </header>
+
+    <div class="confirmContain none">
+        <h2 id="titleInfo">votre bowl arrive chez vous</h2>
+        <img src="assets/img/salad.png" alt="salad">
+        <p>Nompre d'ingrédients : <span class="nbImg">0</span> ingrédients</p>
+        <p>Prix total de la commande : <span class="prixConfirm">8,5€</span></p>
+    </div>
+
+    <main class="container">
+        <section id="ingredientContain">
+            <h2 id="choiceTitle">1. Choisissez la base de votre bowl ~ <span class="nbIngredients nbImg">0</span><span> / 6</span></h2>
+            <div class="wrapper">
+                <article class="cardIngredient">
+                    <img src="assets/img/base_epinards.jpg" alt="Pousses d'épinards">
+                    <p>Pousse d'épinards</p>
+                </article>
+                <article class="cardIngredient">
+                    <img src="assets/img/base_riz.jpg" alt="Riz">
+                    <p>Riz de Camargue Bio</p>
+                </article>
+                <article class="cardIngredient">
+                    <img src="assets/img/base_quinoa.jpg" alt="Quinoa">
+                    <p>Quinoa Royal tricolore</p>
+                </article>
+                <article class="cardIngredient">
+                    <img src="assets/img/base_pousses.jpg" alt="Pousse">
+                    <p>Pousses de salades</p>
+                </article>
+                <article class="cardIngredient">
+                    <img src="assets/img/base_pates.jpg" alt="pate">
+                    <p>Pâtes Bio sans gluten</p>
+                </article>
+                <article class="cardIngredient">
+                    <img src="assets/img/base_mache.jpg" alt="mache">
+                    <p>Bouquets de mâche</p>
+                </article>
+            </div>
+        </section>
+        
+        <section id="totalDescriptionContain">
+            <div>
+                <h2 id="votreBowl">Votre bowl</h2>
+            </div>
+            <div id="totalContain">
+                <p id="nbIngredients"><span class="nbImg nbImg2">0</span> ingrédients</p>
+                <p id="total">Total ~ <span id="price">8,5€</span></p>
+                <p id="promotion"></p>
+                <button id="validButton">valider</button>
+            </div>
+            <div class="descriptionBowl">
+                <p>Mixer jusqu'à <span id="boldSpan">3 ingrédients inclus</span> pour la base de votre bowl.</p>
+            </div>
+            <div class="descriptionBowl">
+                <p class="theQuestion">Vous prenez un seul ingrédient ?</p>
+                <p>il sera ajouté en double à votre bowl.</p>
+            </div>
+            <div class="descriptionBowl">
+                <p class="theQuestion">Vous prenez seulement 2 ingrédients ?</p>
+                <p>une remise de 1€50 sera appliquée sur la valeur total de votre bowl.</p>
+            </div>
+            <div class="descriptionBowl">
+                <p class="theQuestion">Vous prenez plus de 3 ingrédients ?</p>
+                <p>un supplément de 1€50 sera appliqué par ingrédient supplémentaire.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Eval EdenSchool - good luck, folks !</p>
+    </footer>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

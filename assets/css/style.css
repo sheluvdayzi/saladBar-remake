@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Pacifico', cursive;
+}
+
+header{
+    background: url(../img/header.jpg) right;
+    background-size: cover;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+header h1{
+    color: white;    
+    font-size: 60px;
+    font-weight: 200;
+    text-shadow: 1px 3px 2px black;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+#choiceTitle{
+    /* margin: 2vh; */
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#choiceTitle span{
+    color:#92ab1d;
+}
+
+.cardIngredient{
+    border: 1px solid #ccc;
+    width: 40%;
+    text-align: center;
+    margin: 0 2vw 2vh 0 ;
+}
+
+.cardIngredient p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2vh 0;
+    font-size: 15px;
+}
+
+.cardIngredient img{
+    width: 100%;
+}
+
+#ingredientContain{
+    padding: 4vh;
+}
+
+#ingredientContain .wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#totalDescriptionContain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#totalDescriptionContain div p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#totalDescriptionContain div{
+    width: 95%;
+}
+
+#votreBowl{
+    font-size: 30px;
+    color: #92ab1d;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#totalContain{
+    background-color: #92ab1d;
+    color: white;
+    padding: 1vh;
+}
+
+#totalContain button{
+    text-transform: uppercase;
+    background-color: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    width: 40%;
+    height: 4vh;
+    font-size: 15px;
+}
+
+#total{
+    font-weight: 600;
+}
+
+.descriptionBowl{
+    border: 1px solid #92ab1d;
+    margin: 1vh 0;
+    padding: 1vh;
+}
+
+.descriptionBowl span{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#boldSpan{
+    font-weight: 600;
+}
+
+.theQuestion{
+    font-weight: 600;
+}
+
+footer{
+    background-color:#343a40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+footer p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+}
+
+@media screen and (min-width: 768px) {
+    main{
+        display: flex;
+        flex-direction: row;
+        padding: 5vh;
+    }
+    #votreBowl, #choiceTitle{
+        font-size: 28px;
+    }
+
+    .cardIngredient{
+        width: 30%;
+    }
+    #ingredientContain{
+        padding: 0;
+    }
+}
+
+.bcgGreen{
+    background-color: #92ab1d;
+    outline: 5px solid #92ab1d;
+}
+
+#promotion{
+    background-color: #ffc107;
+}
+
+.none{
+    display: none;
+}
+
+.confirmContain{
+    width: 100%;
+    background-color: #ffc107;
+}
+
+.styleConfirm{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
